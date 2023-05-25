@@ -1,0 +1,13 @@
+incluir no setting.py
+
+STATIC_URL = 'static/'
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+]
+
+
+
+E em settings.py -> TEMPLATES
+
+'DIRS': [os.path.join(BASE_DIR, 'templates')],
