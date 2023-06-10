@@ -27,7 +27,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'apps.membros.apps.MembrosConfig',
+    'rest_framework',
+    'apps.membros'
 ]
 
 MIDDLEWARE = [
@@ -66,8 +67,15 @@ WSGI_APPLICATION = 'setup.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'church_cad',
+        'USER': 'admin',
+        'PASSWORD': 'Biel_03101997',
+        'HOST': 'church-cad.cvvmwj4gbhdj.sa-east-1.rds.amazonaws.com',
+        'PORT': '3306',
+        'OPTIONS': {
+            'sql_mode': 'STRICT_ALL_TABLES',
+            },
     }
 }
 
