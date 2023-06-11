@@ -6,7 +6,7 @@ Ele foi desenvolvido a fim acadêmico pelos alunos Jéssica Becaro Janardi Mota 
 
 ## Protótipo Navegável
 
-Um protótipo navegável do Church CAD pode ser visualizado [aqui](https://youtu.be/IxrK9OrLZ6k).
+Um protótipo navegável do Church CAD pode ser visualizado [aqui](https://drive.google.com/file/d/1iI_JcyJSNRt-harTpCjV5z0Z_XKPJutK/view?usp=sharing).
 
 ## Recursos
 
@@ -19,8 +19,8 @@ Um protótipo navegável do Church CAD pode ser visualizado [aqui](https://youtu
 
 ## Pré-requisitos
 
-- Python (versão X.X.X)
-- Django (versão X.X.X)
+- Python (versão 3.11.3)
+- Django (versão 4.2.1)
 
 ## Instalação
 
