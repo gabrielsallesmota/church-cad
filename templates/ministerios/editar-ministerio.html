@@ -1,10 +1,10 @@
 {% extends 'shared/base.html' %}
 {% load static %}
 {% block content %}
-    
+
 <section class="membros" style="margin-left: 5em">
-    <h1>Cadastrar Membro</h1>
-    <form action="{% url 'cadastro' %}" method="POST"  enctype="multipart/form-data">
+    <h1>Editar Ministério</h1>
+    <form action="{% url 'ministerio_update' ministerio.id %}" method="POST" enctype="multipart/form-data">
         {% csrf_token %}
         <div class="row mr-3">
             {% for field in form.visible_fields %}
@@ -17,13 +17,10 @@
 
         <div class="row mr-5 mb-5">
             <div class="col-12 col-lg-12">
-                <button class="btn btn-success col-12 col-lg-12" type="submit">Cadastrar Novo Membro</button>
+                <button class="btn btn-primary col-12 col-lg-12" type="submit">Salvar Alterações</button>
             </div>
         </div>
     </form>
 </section>
-</main>
-</div>
-</body>
 
 {% endblock %}

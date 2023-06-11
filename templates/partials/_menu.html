@@ -31,14 +31,14 @@
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fas fa-user"></i>
+                    <i class="fa fa-id-card"></i>
                     <span>Cadastro</span>
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <a class="collapse-item" href="{% url 'cadastro' %}">Membro</a>
-                        <a class="collapse-item" href="index.html">Ministério</a>
-                        <a class="collapse-item" href="index.html">Grupo de Conexão</a>
+                        <a class="collapse-item" href="{% url 'ministerio_create' %}">Ministério</a>
+                        <a class="collapse-item" href="{% url 'grupo_conexao_list' %}">Grupo de Conexão</a>
                     </div>
                 </div>
             </li>
@@ -47,7 +47,7 @@
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                     aria-expanded="true" aria-controls="collapseUtilities">
-                    <i class="fa fa-id-card-o"></i>
+                    <i class="fa fa-search"></i>
                     <span>Consultar</span>
                 </a>
                 <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
@@ -55,8 +55,8 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <!--  <h6 class="collapse-header">Custom Utilities:</h6>  -->
                         <a class="collapse-item" href="{% url 'consulta' %}">Membro</a>
-                        <a class="collapse-item" href="utilities-border.html">Ministério</a>
-                        <a class="collapse-item" href="index.html">Grupo de Conexão</a>
+                        <a class="collapse-item" href="{% url 'ministerio_consult' %}">Ministério</a>
+                        <a class="collapse-item" href="{% url 'grupo_conexao_list' %}">Grupo de Conexão</a>
                     </div>
                 </div>
             </li>
@@ -73,7 +73,7 @@
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseReports"
                     aria-expanded="true" aria-controls="collapseReports">
-                    <i class="fa fa-id-card-o"></i>
+                    <i class="fa fa-table"></i>
                     <span>Relatórios</span> 
                 </a>
                 <div id="collapseReports" class="collapse" aria-labelledby="headingReports"
@@ -92,7 +92,7 @@
             <div style="padding-top: 150px;"></div>
             <li class="nav-item">
                 <a class="nav-link" href="">
-                    <i class="fas fa-fw fa-table"></i>
+                    <i class="fas fa-sign-out-alt"></i>
                     <span>Logout</span></a>
             </li>
 

@@ -24,7 +24,7 @@ class Ministerio(models.Model):
         on_delete=models.SET_NULL,
         null=True,
         blank=False,
-        related_name="ministerios",
+        related_name="membros",
     )
     situacao = models.CharField(max_length=1, choices=OPCAO_SITUACAO, default="")
 
