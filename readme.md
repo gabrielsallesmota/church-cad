@@ -1,8 +1,8 @@
 # Church CAD
 
-![Church CAD](link-para-imagem-do-logo)
+O Church CAD é um sistema de cadastro de membros e ministérios para igrejas. Ele permite que você mantenha um registro organizado dos membros da igreja, suas informações pessoais e seus ministérios de atuação. 
 
-O Church CAD é um sistema de cadastro de membros e ministérios para igrejas. Ele permite que você mantenha um registro organizado dos membros da igreja, suas informações pessoais e seus ministérios de atuação.
+Ele foi desenvolvido a fim acadêmico pelos alunos Jéssica Becaro Janardi Mota e Gabriel Salles Mota, do curso de Pós Graduação em Engenharia de Software da PUC Minas.
 
 ## Protótipo Navegável
 
